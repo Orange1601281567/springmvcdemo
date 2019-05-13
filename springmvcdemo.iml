@@ -16,10 +16,7 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="ApplicationContext" removed="false">
-          <file>file://$MODULE_DIR$/web/WEB-INF/applicationContext.xml</file>
-          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
-        </fileset>
+        <fileset id="fileset" name="ApplicationContext" removed="false" />
       </configuration>
     </facet>
   </component>
@@ -33,7 +30,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
     <orderEntry type="library" name="Spring MVC-4.3.18.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0" level="application_server_libraries" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
