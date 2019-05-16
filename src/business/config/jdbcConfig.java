@@ -21,9 +21,9 @@ public class jdbcConfig {
         try{
             ComboPooledDataSource ds=new ComboPooledDataSource(  );
             ds.setDriverClass( "com.mysql.cj.jdbc.Driver" );
-            ds.setJdbcUrl( "jdbc:mysql://119.29.221.246/chartroom?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true" );
+            ds.setJdbcUrl( "***" );
             ds.setUser( "link" );
-            ds.setPassword( "Admin@Pass001" );
+            ds.setPassword( "***" );
             return ds;
         }
         catch (Exception e){
