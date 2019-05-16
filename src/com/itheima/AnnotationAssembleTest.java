@@ -36,6 +36,7 @@ public class AnnotationAssembleTest {
                 (IAccountService) applicationContext.getBean("accountService");
         Account accounts=as.findAccountById( 2 );
 
+        System.out.print("asdasdasd");
             System.out.println( accounts );
 
         }
