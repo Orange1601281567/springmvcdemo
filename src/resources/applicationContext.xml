@@ -11,8 +11,8 @@
     </bean>
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
-        <property name="jdbcUrl" value="jdbc:mysql://119.29.221.246/chartroom?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"></property>
+        <property name="jdbcUrl" value="***"></property>
         <property name="user" value="link"></property>
-        <property name="password" value="Admin@Pass001"></property>
+        <property name="password" value="****"></property>
     </bean>
 </beans>
