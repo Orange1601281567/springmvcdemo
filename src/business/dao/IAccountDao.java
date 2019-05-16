@@ -1,6 +1,6 @@
-package com.itheima.dao;
+package business.dao;
 
-import com.itheima.domain.Account;
+import business.domain.Account;
 
 import java.util.List;
 

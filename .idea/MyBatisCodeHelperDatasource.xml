@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="business.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/src" />
+        <option name="javaModelPackage" value="business.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/src" />
+        <option name="lastDatabaseCrudChooseModuleName" value="springmvcdemo" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="springmvcdemo">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="business.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/src" />
+                  <option name="javaModelPacakge" value="business.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/src" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/src" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/src" />
+                  <option name="xmlPackage" value="business.mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/src/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="chartroom:yu">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="Order" />
+                  <option name="moduleName" value="springmvcdemo" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="xmlMapperPackage" value="business.mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/src/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-package com.itheima.config;
+package business.config;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.apache.commons.dbutils.QueryRunner;
@@ -20,10 +20,10 @@ public class jdbcConfig {
     public DataSource createDataSource(){
         try{
             ComboPooledDataSource ds=new ComboPooledDataSource(  );
-            ds.setDriverClass( "com.mysql.jdbc.Driver" );
-            ds.setJdbcUrl( "jdbc:mysql://localhost:3306/user" );
-            ds.setUser( "root" );
-            ds.setPassword( "123456" );
+            ds.setDriverClass( "com.mysql.cj.jdbc.Driver" );
+            ds.setJdbcUrl( "jdbc:mysql://119.29.221.246/chartroom?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true" );
+            ds.setUser( "link" );
+            ds.setPassword( "Admin@Pass001" );
             return ds;
         }
         catch (Exception e){

@@ -5,14 +5,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 <!-- 使用 context 命名空间 ,在配置文件中开启相应的注解处理器 -->
-    <context:component-scan base-package="com.itheima"></context:component-scan>
+    <context:component-scan base-package="business"></context:component-scan>
     <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
         <constructor-arg name="ds" ref="dataSource"></constructor-arg>
     </bean>
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/user"></property>
-        <property name="user" value="root"></property>
-        <property name="password" value="123456"></property>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://119.29.221.246/chartroom?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"></property>
+        <property name="user" value="link"></property>
+        <property name="password" value="Admin@Pass001"></property>
     </bean>
 </beans>
