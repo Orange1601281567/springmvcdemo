@@ -89,7 +89,7 @@ public class AnnotationAssembleTest {
         order.setOrdertime(new Date());
         as.saveOrder(order);
         // 通过返回结果判断更新操作是否执行成功
-            System.out.println("您成功修改了");
+        System.out.println("您成功修改了");
 
 
 
