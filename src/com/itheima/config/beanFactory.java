@@ -10,6 +10,6 @@ import javax.sql.DataSource;
 @ComponentScan("com.itheima")
 @Import( jdbcConfig.class )
 public class beanFactory {
-
+//554564
 
 }
