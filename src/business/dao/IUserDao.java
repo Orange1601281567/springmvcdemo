@@ -26,17 +26,21 @@ public interface IUserDao {
      * 保存
      * @param user
      */
-    void saveUser(User user);
+    User loginUser(User user);
 
     /**
      * 更新
      * @param user
      */
-    void updateUser(User user);
+    int updateUser(User user);
 
     /**
      * 删除
      * @param UserId
      */
-    void deleteUser(Integer UserId);
+    int deleteUser(Integer UserId);
+    /**
+     * 转账
+     */
+    int change(String user1,String user2, float money);
 }

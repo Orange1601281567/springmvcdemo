@@ -1,13 +1,13 @@
 package business.service.impl;
 
 import business.dao.IUserDao;
-import business.domain.Account;
 import business.entity.User;
 import business.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 /**
  * 用户业务层实现类
  * */

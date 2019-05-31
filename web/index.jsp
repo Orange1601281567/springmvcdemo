@@ -11,6 +11,11 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+
+  <form action="/springmvcdemo_war_exploded/Orange" method="post"  enctype="multipart/form-data">
+    <input type="file" name="img" value="">
+    <input type="text" name="user" value="">
+    <button type="submit">提交</button>
+  </form>
   </body>
 </html>
