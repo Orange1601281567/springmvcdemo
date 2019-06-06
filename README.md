@@ -1,3 +1,3 @@
 # springmvcdemo
-ORANGE预约订餐系统，预计采用SSM+Mybatis
+ORANGE预约订餐系统，预计采用SSM
 这是一个萌新练手项目,请多指教
